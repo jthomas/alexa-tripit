@@ -1,0 +1,52 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "tripit",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Status",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.GB_FIRST_NAME"
+                        },
+                        {
+                            "name": "date",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "where {name} is {date}",
+                        "where {name} is on {date}",
+                        "where {name} is",
+                        "where's {name}",
+                        "where is {name} on {date}",
+                        "where is {name} {date}",
+                        "Where is {name} "
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

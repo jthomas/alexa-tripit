@@ -1,0 +1,17 @@
+{
+  "name": "tripit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.1.0",
+    "ask-sdk-model": "^1.7.1",
+    "node-fetch": "^2.2.0"
+  }
+}
